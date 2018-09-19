@@ -22,6 +22,8 @@ html
               a.nav-link(href='/services') Services
             li.nav-item(class=pageTitle=='Contact' ? 'active' : undefined)
               a.nav-link(href='/contact') Contact
-    block content
+    .container
+      block content
+      
     script(src='/javascripts/jquery-3.3.1.min.js')
     script(src='/javascripts/bootstrap.min.js')
