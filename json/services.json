@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hardware Repair",
+    "description": "Hamburger andouille picanha turducken, alcatra pork venison cow porchetta kielbasa buffalo beef. Brisket bresaola chuck, biltong cupim pork chop swine ball tip alcatra.",
+    "price_range":"$100-$200"
+  },
+  {
+    "name": "PC Tuneup",
+    "description": "Hamburger andouille picanha turducken, alcatra pork venison cow porchetta kielbasa buffalo beef. Brisket bresaola chuck, biltong cupim pork chop swine ball tip alcatra.",
+    "price_range":"$100-$200"
+  },
+  {
+    "name": "Virus Removal",
+    "description": "Hamburger andouille picanha turducken, alcatra pork venison cow porchetta kielbasa buffalo beef. Brisket bresaola chuck, biltong cupim pork chop swine ball tip alcatra.",
+    "price_range":"$100-$250"
+  },
+  {
+    "name": "Network Services",
+    "description": "Hamburger andouille picanha turducken, alcatra pork venison cow porchetta kielbasa buffalo beef. Brisket bresaola chuck, biltong cupim pork chop swine ball tip alcatra.",
+    "price_range":"$300-$1550"
+  }
+]
