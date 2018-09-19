@@ -1,6 +1,33 @@
 extends layout
 
 block content
-  .container
-    h1= title
-    p Welcome to #{pageTitle}
+  .jumbotron.jumbotron-fluid.mt-4
+    .container
+      .row.pl-3.pr-3
+        .col-md-7
+          h1.display-4 Computer Not Working?
+          p.lead
+            | Is your computer running slow? or maybe not at all? Call us for a quick and easy quote
+          a.btn.btn-primary.btn-lg(href='/contact') Contact Us Now!  
+        .col-md-5
+          img(src='images/laptop.png')
+  .row
+    .col-md-4
+      .card
+        .card-body
+          h3 Software Problems
+          p
+            | Capicola kielbasa beef doner, jowl tongue tenderloin turducken landjaeger prosciutto bacon. Meatball ham hock tail ham meatloaf, porchetta boudin. Biltong swine porchetta brisket. Sirloin venison buffalo, salami ground round meatloaf swine tenderloin frankfurter
+    .col-md-4
+      .card
+        .card-body
+          h3 Hardware Problems
+          p
+            | Capicola kielbasa beef doner, jowl tongue tenderloin turducken landjaeger prosciutto bacon. Meatball ham hock tail ham meatloaf, porchetta boudin. Biltong swine porchetta brisket. Sirloin venison buffalo, salami ground round meatloaf swine tenderloin frankfurter
+    .col-md-4
+      .card
+        .card-body
+          h3 PC Repair
+          p
+            | Capicola kielbasa beef doner, jowl tongue tenderloin turducken landjaeger prosciutto bacon. Meatball ham hock tail ham meatloaf, porchetta boudin. Biltong swine porchetta brisket. Sirloin venison buffalo, salami ground round meatloaf swine tenderloin frankfurter
+
