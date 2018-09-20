@@ -8,6 +8,7 @@ const indexRouter = require('./routes/index');
 const aboutRouter = require('./routes/about');
 const servicesRouter = require('./routes/services');
 const contactRouter = require('./routes/contact');
+require('dotenv').config();
 
 const app = express();
 
