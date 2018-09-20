@@ -2,3 +2,20 @@ extends layout
 
 block content
   h1 #{pageTitle}
+  if validation
+    .alert.div(class="alert-"+validation.type).alert-dismissible.fade.show(role='alert')
+      |  #{validation.message}
+      button.close(type='button', data-dismiss='alert', aria-label='Close')
+        span(aria-hidden='true') ×
+
+  form(method="post", action="/contact")
+    .form-group
+      label Name
+      input.form-control(type="text", required, name="name", placeholder="Enter Name")
+    .form-group
+      label Email
+      input.form-control(type="email", required, name="email", placeholder="Enter Email")
+    .form-group
+      label Message
+      textarea.form-control(name="message", required, placeholder="Enter Message")
+    button.btn.btn-default(type="submit") Submit
