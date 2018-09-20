@@ -10,6 +10,8 @@ This project was created using expressjs 4.16.0 and pug 2.0.0-beta11.
 
 ## How to install
 
+rename the .env_example file to .env then replace the example variables with your own environment variables.
+
 ```bash
 npm install
 npm start
@@ -22,7 +24,7 @@ Visit http://eslint.org for details.
 
 ### Testing
 
-This project uses Supertest, should and cheerio for testing.
+This project uses mocha, supertest, should and cheerio for testing.
 
 To execute tests:
 
