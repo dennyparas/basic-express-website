@@ -22,7 +22,7 @@ Visit http://eslint.org for details.
 
 ### Testing
 
-This project uses Supertest, shoudl and cheerio for testing.
+This project uses Supertest, should and cheerio for testing.
 
 To execute tests:
 
